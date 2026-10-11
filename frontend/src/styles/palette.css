@@ -1,0 +1,238 @@
+/* ==========================================================================
+   Jorges - Paleta de color
+   Generada y verificada con WCAG 2.x AA. Documentacion: docs/design/palette.md
+   Escalas: tomate (primario), queso (secundario/acento), masa (neutro calido,
+   de crema a carbon), albahaca (terciario/exito), vino (solo peligro).
+
+   Uso con Tailwind v4 (en el CSS principal):
+     @import "tailwindcss";
+     @import "./palette.css";
+     @custom-variant dark (&:where(.dark, .dark *, [data-theme="dark"], [data-theme="dark"] *));
+   Sin Tailwind: el navegador ignora los bloques @theme; las variables
+   semanticas de :root (var(--primary), var(--foreground), ...) usan hex
+   directos y funcionan igual. Para usar los tonos de escala en CSS plano,
+   copiar las lineas --color-* del primer @theme a :root.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Tailwind v4 @theme
+      Escalas -> utilidades bg-tomate-600, text-masa-950, border-queso-400...
+      Semanticos -> bg-primary, text-primary-foreground, bg-surface...
+      (apuntan a variables de runtime que cambian con el modo)
+   -------------------------------------------------------------------------- */
+@theme {
+  /* tomate */
+  --color-tomate-50: #FDF4F1;
+  --color-tomate-100: #FCE4DF;
+  --color-tomate-200: #F8C8BF;
+  --color-tomate-300: #F2A092;
+  --color-tomate-400: #E9705D;
+  --color-tomate-500: #DE4C35;
+  --color-tomate-600: #C8341E;
+  --color-tomate-700: #A2281A;
+  --color-tomate-800: #812118;
+  --color-tomate-900: #5F1B16;
+  --color-tomate-950: #34100E;
+
+  /* queso */
+  --color-queso-50: #FEF9EC;
+  --color-queso-100: #FCEFCF;
+  --color-queso-200: #FAE0A3;
+  --color-queso-300: #F6CB6F;
+  --color-queso-400: #F2B33D;
+  --color-queso-500: #E89417;
+  --color-queso-600: #C17115;
+  --color-queso-700: #975217;
+  --color-queso-800: #723D17;
+  --color-queso-900: #512B15;
+  --color-queso-950: #2B170D;
+
+  /* masa */
+  --color-masa-50: #FAF5EA;
+  --color-masa-100: #F2E9D9;
+  --color-masa-200: #E2D4C1;
+  --color-masa-300: #BFAF9B;
+  --color-masa-400: #988776;
+  --color-masa-500: #796A5D;
+  --color-masa-600: #63554B;
+  --color-masa-700: #4D4038;
+  --color-masa-800: #372C25;
+  --color-masa-900: #261C17;
+  --color-masa-950: #17100C;
+
+  /* albahaca */
+  --color-albahaca-50: #F2F9F1;
+  --color-albahaca-100: #DFEFDC;
+  --color-albahaca-200: #BFDEBA;
+  --color-albahaca-300: #91C68B;
+  --color-albahaca-400: #5DAD58;
+  --color-albahaca-500: #489245;
+  --color-albahaca-600: #3B7B37;
+  --color-albahaca-700: #2D642B;
+  --color-albahaca-800: #225021;
+  --color-albahaca-900: #173B17;
+  --color-albahaca-950: #0C220D;
+
+  /* vino */
+  --color-vino-50: #FCEEF0;
+  --color-vino-100: #F8D8DE;
+  --color-vino-400: #F07A8A;
+  --color-vino-600: #A8213A;
+  --color-vino-800: #641623;
+
+  /* harina: superficie de tarjeta en modo claro */
+  --color-harina: #FFFDF8;
+}
+
+/* Semanticos: @theme inline hace que las utilidades lean la variable de runtime
+   (bg-primary -> var(--primary)), que cambia entre modo claro y oscuro. */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-foreground: var(--surface-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-text: var(--primary-text);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent-text: var(--accent-text);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-success-text: var(--success-text);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-warning-text: var(--warning-text);
+  --color-danger: var(--danger);
+  --color-danger-foreground: var(--danger-foreground);
+  --color-danger-text: var(--danger-text);
+}
+
+/* --------------------------------------------------------------------------
+   2. Variables semanticas de runtime - MODO CLARO (por defecto)
+   -------------------------------------------------------------------------- */
+:root {
+  color-scheme: light;
+  --background: #FAF5EA; /* masa-50 */
+  --foreground: #17100C; /* masa-950 */
+  --surface: #FFFDF8; /* harina */
+  --surface-foreground: #17100C; /* masa-950 */
+  --muted: #F2E9D9; /* masa-100 */
+  --muted-foreground: #63554B; /* masa-600 */
+  --primary: #C8341E; /* tomate-600 */
+  --primary-hover: #A2281A; /* tomate-700 */
+  --primary-foreground: #FAF5EA; /* masa-50 */
+  --primary-text: #A2281A; /* tomate-700 */
+  --secondary: #261C17; /* masa-900 */
+  --secondary-foreground: #FAF5EA; /* masa-50 */
+  --accent: #F2B33D; /* queso-400 */
+  --accent-foreground: #17100C; /* masa-950 */
+  --accent-text: #723D17; /* queso-800 */
+  --border: #E2D4C1; /* masa-200 */
+  --input: #796A5D; /* masa-500 */
+  --ring: #C8341E; /* tomate-600 */
+  --success: #3B7B37; /* albahaca-600 */
+  --success-foreground: #FFFFFF; /* #FFFFFF */
+  --success-text: #2D642B; /* albahaca-700 */
+  --warning: #F2B33D; /* queso-400 */
+  --warning-foreground: #17100C; /* masa-950 */
+  --warning-text: #723D17; /* queso-800 */
+  --danger: #A8213A; /* vino-600 */
+  --danger-foreground: #FAF5EA; /* masa-50 */
+  --danger-text: #A8213A; /* vino-600 */
+}
+
+/* --------------------------------------------------------------------------
+   3. MODO OSCURO - clase .dark o [data-theme="dark"] en <html>
+   -------------------------------------------------------------------------- */
+.dark,
+[data-theme="dark"] {
+  color-scheme: dark;
+  --background: #17100C; /* masa-950 */
+  --foreground: #FAF5EA; /* masa-50 */
+  --surface: #261C17; /* masa-900 */
+  --surface-foreground: #FAF5EA; /* masa-50 */
+  --muted: #372C25; /* masa-800 */
+  --muted-foreground: #BFAF9B; /* masa-300 */
+  --primary: #C8341E; /* tomate-600 */
+  --primary-hover: #A2281A; /* tomate-700 */
+  --primary-foreground: #FAF5EA; /* masa-50 */
+  --primary-text: #E9705D; /* tomate-400 */
+  --secondary: #FAF5EA; /* masa-50 */
+  --secondary-foreground: #17100C; /* masa-950 */
+  --accent: #F2B33D; /* queso-400 */
+  --accent-foreground: #17100C; /* masa-950 */
+  --accent-text: #F6CB6F; /* queso-300 */
+  --border: #372C25; /* masa-800 */
+  --input: #988776; /* masa-400 */
+  --ring: #F2B33D; /* queso-400 */
+  --success: #5DAD58; /* albahaca-400 */
+  --success-foreground: #17100C; /* masa-950 */
+  --success-text: #91C68B; /* albahaca-300 */
+  --warning: #F2B33D; /* queso-400 */
+  --warning-foreground: #17100C; /* masa-950 */
+  --warning-text: #F6CB6F; /* queso-300 */
+  --danger: #F07A8A; /* vino-400 */
+  --danger-foreground: #17100C; /* masa-950 */
+  --danger-text: #F07A8A; /* vino-400 */
+}
+
+/* Preferencia del sistema, salvo que se fuerce el modo claro */
+@media (prefers-color-scheme: dark) {
+  :root:not(.light):not([data-theme="light"]) {
+    color-scheme: dark;
+    --background: #17100C; /* masa-950 */
+    --foreground: #FAF5EA; /* masa-50 */
+    --surface: #261C17; /* masa-900 */
+    --surface-foreground: #FAF5EA; /* masa-50 */
+    --muted: #372C25; /* masa-800 */
+    --muted-foreground: #BFAF9B; /* masa-300 */
+    --primary: #C8341E; /* tomate-600 */
+    --primary-hover: #A2281A; /* tomate-700 */
+    --primary-foreground: #FAF5EA; /* masa-50 */
+    --primary-text: #E9705D; /* tomate-400 */
+    --secondary: #FAF5EA; /* masa-50 */
+    --secondary-foreground: #17100C; /* masa-950 */
+    --accent: #F2B33D; /* queso-400 */
+    --accent-foreground: #17100C; /* masa-950 */
+    --accent-text: #F6CB6F; /* queso-300 */
+    --border: #372C25; /* masa-800 */
+    --input: #988776; /* masa-400 */
+    --ring: #F2B33D; /* queso-400 */
+    --success: #5DAD58; /* albahaca-400 */
+    --success-foreground: #17100C; /* masa-950 */
+    --success-text: #91C68B; /* albahaca-300 */
+    --warning: #F2B33D; /* queso-400 */
+    --warning-foreground: #17100C; /* masa-950 */
+    --warning-text: #F6CB6F; /* queso-300 */
+    --danger: #F07A8A; /* vino-400 */
+    --danger-foreground: #17100C; /* masa-950 */
+    --danger-text: #F07A8A; /* vino-400 */
+  }
+}
+
+/* --------------------------------------------------------------------------
+   4. Base
+   -------------------------------------------------------------------------- */
+html {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+::selection {
+  background-color: var(--accent);
+  color: var(--accent-foreground);
+}
+
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Aceituna de botija">
+<ellipse cx="100" cy="100" rx="70" ry="54" fill="#4A2340"/>
+<ellipse cx="100" cy="100" rx="70" ry="54" fill="none" stroke="#2B1424" stroke-width="6"/>
+<ellipse cx="78" cy="80" rx="22" ry="10" transform="rotate(-20 78 80)" fill="#8E5A80" opacity=".7"/>
+</svg>

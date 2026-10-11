@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hoja de rúcula">
+<g transform="rotate(20 100 100)"><path d="M100 10 C112 30 92 40 116 52 C136 62 118 76 138 88 C156 100 132 114 146 130 C156 146 128 152 120 168 C112 182 104 192 100 192 C96 192 88 182 80 168 C72 152 44 146 54 130 C68 114 44 100 62 88 C82 76 64 62 84 52 C108 40 88 30 100 10Z" fill="#3B7B37"/>
+<path d="M100 18 L100 196" stroke="#2D642B" stroke-width="5" stroke-linecap="round"/>
+<path d="M100 70 L124 56 M100 100 L130 90 M100 130 L126 124 M100 70 L76 56 M100 100 L70 90 M100 130 L74 124" stroke="#2D642B" stroke-width="3" stroke-linecap="round"/></g>
+</svg>

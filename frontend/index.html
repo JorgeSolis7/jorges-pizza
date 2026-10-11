@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es-PE">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Permite ocultar estados iniciales de motion solo si hay JS (DESIGN.md 9.4) -->
+    <script>document.documentElement.classList.add("js")</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Jorges · Pizza napolitana al horno de leña</title>
+    <meta name="description" content="Pizzería premium de masa madre de 48 horas y horno de leña a 450 °C. Pide en línea o arma tu propia pizza." />
+    <meta name="theme-color" content="#261C17" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- LCP: H1 del hero en Barlow Condensed 800 (DESIGN.md 3.2) -->
+    <link rel="preload" as="font" type="font/woff2" href="/node_modules/@fontsource/barlow-condensed/files/barlow-condensed-latin-800-normal.woff2" crossorigin />
+    <!-- LCP visual: base de la pizza del hero (pack fotorrealista) -->
+    <link rel="preload" as="image" href="/assets/jorges/pizza-base.webp" type="image/webp" fetchpriority="high" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <div id="app"></div>
+    <noscript><p style="padding:24px">Activa JavaScript para ver el menú y hacer tu pedido en Jorges.</p></noscript>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

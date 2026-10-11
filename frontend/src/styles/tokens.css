@@ -1,0 +1,79 @@
+/* Tokens de DESIGN.md §11 (complementa palette.css, que define todos los colores). */
+@theme {
+  /* Fuentes */
+  --font-display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --font-body: "Nunito Sans Variable", "Nunito Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  /* Escala tipográfica (390 → 1440 px) */
+  --text-display: clamp(3.5rem, 2.2rem + 5.333vw, 7rem);   --text-display--line-height: 0.92; --text-display--letter-spacing: -0.01em;
+  --text-h1: clamp(3rem, 2.257rem + 3.048vw, 5rem);        --text-h1--line-height: 0.95;      --text-h1--letter-spacing: -0.01em;
+  --text-h2: clamp(2.5rem, 2.129rem + 1.524vw, 3.5rem);    --text-h2--line-height: 1;
+  --text-h3: clamp(1.875rem, 1.643rem + 0.952vw, 2.5rem);  --text-h3--line-height: 1;
+  --text-h4: clamp(1.5rem, 1.407rem + 0.381vw, 1.75rem);   --text-h4--line-height: 1.1;       --text-h4--letter-spacing: 0.01em;
+  --text-h5: clamp(1.25rem, 1.204rem + 0.19vw, 1.375rem);  --text-h5--line-height: 1.15;      --text-h5--letter-spacing: 0.02em;
+  --text-price: clamp(1.375rem, 1.236rem + 0.571vw, 1.75rem); --text-price--line-height: 1;
+  --text-price-lg: clamp(1.75rem, 1.657rem + 0.381vw, 2rem);  --text-price-lg--line-height: 1;
+  --text-lead: clamp(1.125rem, 1.079rem + 0.19vw, 1.25rem);   --text-lead--line-height: 1.55;
+  --text-body: clamp(1rem, 0.977rem + 0.095vw, 1.0625rem);    --text-body--line-height: 1.6;
+  --text-sm: 0.875rem;  --text-sm--line-height: 1.5;
+  --text-xs: 0.75rem;   --text-xs--line-height: 1.4;
+  --text-eyebrow: clamp(0.75rem, 0.727rem + 0.095vw, 0.8125rem); --text-eyebrow--line-height: 1.2; --text-eyebrow--letter-spacing: 0.12em;
+
+  --tracking-button: 0.04em;
+  --tracking-badge: 0.08em;
+
+  /* Breakpoints */
+  --breakpoint-2xl: 90rem;
+
+  /* Radios */
+  --radius-sm: 4px;
+  --radius-pill: 9999px;
+
+  /* Sombras */
+  --shadow-header: 0 10px 11px -5px rgb(23 16 12 / 0.10);
+  --shadow-card: 0 2px 12px rgb(23 16 12 / 0.06);
+  --shadow-pop: 0 8px 24px rgb(23 16 12 / 0.12);
+  --shadow-sticky: 0 -8px 24px rgb(23 16 12 / 0.08);
+  --shadow-drawer: -24px 0 48px rgb(23 16 12 / 0.18);
+
+  /* Easings */
+  --ease-standard: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --ease-emphasis: cubic-bezier(0.165, 0.84, 0.44, 1);
+  --ease-exit: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  --ease-move: cubic-bezier(0.645, 0.045, 0.355, 1);
+  --ease-float: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  --ease-pop: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+:root {
+  /* Layout */
+  --container: 1170px;
+  --container-wide: 1440px;
+  --container-narrow: 760px;
+  --gutter: 16px;
+  --header-h: 64px;
+  --tabs-h: 56px;
+  --sticky-bar-h: 72px;
+  --section-y: clamp(4rem, 2.514rem + 6.095vw, 8rem);
+  --stack-title: clamp(2.5rem, 2.314rem + 0.762vw, 3rem);
+
+  /* Capas */
+  --z-raised: 10; --z-tabs: 40; --z-header: 50; --z-sticky-bar: 60;
+  --z-mobile-menu: 80; --z-scrim: 90; --z-drawer: 100; --z-toast: 110;
+
+  /* Motion */
+  --dur-1: 0.12s; --dur-2: 0.25s; --dur-3: 0.4s; --dur-4: 0.6s; --dur-5: 0.9s; --dur-6: 1.6s;
+
+  /* Derivados de la paleta (sección 2.4) */
+  --secondary-hover: var(--color-masa-700, #4D4038);
+  --accent-hover: var(--color-queso-300, #F6CB6F);
+  --scrim: rgb(23 16 12 / 0.5);
+  --overlay-photo: rgb(23 16 12 / 0.65);
+}
+@media (min-width: 640px)  { :root { --gutter: 24px; } }
+@media (min-width: 1024px) { :root { --gutter: 32px; --header-h: 96px; --sticky-bar-h: 80px; } }
+
+.dark, [data-theme="dark"] { --secondary-hover: var(--color-masa-200, #E2D4C1); }
+@media (prefers-color-scheme: dark) {
+  :root:not(.light):not([data-theme="light"]) { --secondary-hover: var(--color-masa-200, #E2D4C1); }
+}

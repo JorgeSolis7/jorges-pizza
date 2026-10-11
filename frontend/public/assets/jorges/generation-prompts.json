@@ -1,0 +1,453 @@
+{
+  "tool": "Built-in image_gen; existing SVG drawings rasterized with Sharp for builder only",
+  "assets": [
+    {
+      "file": "pizza-diavola.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 732594,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Entire round artisan Neapolitan pizza seen directly from above, irregular golden puffy crust with small wood-fired char spots, realistic baked toppings. No plate, no board, no utensils, no extra garnishes beyond specified ingredients. Subject: Diavola pizza with red San Marzano tomato sauce, melted mozzarella, spicy nduja sausage small crumbled dollops and artisan pepperoni rounds. This is one individual asset."
+    },
+    {
+      "file": "pizza-jorges-especial.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 755018,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Entire round artisan Neapolitan pizza seen directly from above, irregular golden puffy crust with small wood-fired char spots, realistic baked toppings. No plate, no board, no utensils, no extra garnishes beyond specified ingredients. Subject: Jorges Especial pizza: San Marzano tomato sauce, melted mozzarella, delicate folds of prosciutto di Parma, sauteed brown mushroom slices and dark purple-black botija olives."
+    },
+    {
+      "file": "pizza-prosciutto-rucula.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 742772,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Entire round artisan Neapolitan pizza seen directly from above, irregular golden puffy crust with small wood-fired char spots, realistic baked toppings. No plate, no board, no utensils, no extra garnishes beyond specified ingredients. Subject: Prosciutto e Rucula pizza: thin crisp crust, tomato sauce, mozzarella, delicate pink prosciutto folds, fresh arugula leaves and shaved Parmesan added after baking."
+    },
+    {
+      "file": "pizza-rocoto-andina.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 837692,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Entire round artisan Neapolitan pizza seen directly from above, irregular golden puffy crust with small wood-fired char spots, realistic baked toppings. No plate, no board, no utensils, no extra garnishes beyond specified ingredients. Subject: Rocoto Andina pizza: golden orange rocoto pepper cream sauce instead of tomato, mozzarella, small reddish nduja dollops and amber caramelized onion ribbons."
+    },
+    {
+      "file": "pizza-cuatro-quesos.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 729824,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Entire round artisan Neapolitan pizza seen directly from above, irregular golden puffy crust with small wood-fired char spots, realistic baked toppings. No plate, no board, no utensils, no extra garnishes beyond specified ingredients. Subject: Cuatro Quesos white pizza: thin crisp crust, creamy molten mozzarella, shaved Parmesan and small blue-veined gorgonzola patches. No tomato sauce, no herbs, no meat."
+    },
+    {
+      "file": "pizza-dulce-gorgonzola.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 818138,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Entire round artisan Neapolitan pizza seen directly from above, irregular golden puffy crust with small wood-fired char spots, realistic baked toppings. No plate, no board, no utensils, no extra garnishes beyond specified ingredients. Subject: Dulce Gorgonzola white pizza: melted mozzarella, blue-veined gorgonzola, amber caramelized onion ribbons, scattered fresh arugula. No tomato sauce."
+    },
+    {
+      "file": "pizza-pesto-verde.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 816208,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Entire round artisan Neapolitan pizza seen directly from above, irregular golden puffy crust with small wood-fired char spots, realistic baked toppings. No plate, no board, no utensils, no extra garnishes beyond specified ingredients. Subject: Pesto Verde pizza: thin crisp crust, textured green basil pesto instead of tomato sauce, mozzarella, shaved parmesan, fresh arugula."
+    },
+    {
+      "file": "pizza-marinara.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 836634,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Entire round artisan Neapolitan pizza seen directly from above, irregular golden puffy crust with small wood-fired char spots, realistic baked toppings. No plate, no board, no utensils, no extra garnishes beyond specified ingredients. Subject: Vegan Marinara pizza: vivid San Marzano tomato sauce, small golden confit garlic cloves, oregano and fresh basil. Absolutely no cheese or meat."
+    },
+    {
+      "file": "pizza-huerta.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 831302,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Entire round artisan Neapolitan pizza seen directly from above, irregular golden puffy crust with small wood-fired char spots, realistic baked toppings. No plate, no board, no utensils, no extra garnishes beyond specified ingredients. Subject: Vegan Huerta pizza: darker whole-wheat crust, tomato sauce, sauteed mushroom slices, roasted red pepper strips, caramelized onions and purple-black botija olives. Absolutely no cheese or meat."
+    },
+    {
+      "file": "pizza-focaccia-ajo.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 566172,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Subject: One square thick fluffy focaccia bread portion, lightly angled overhead view showing airy crumb on cut edges, dimpled golden olive oil crust, confit garlic cloves and oregano. No plate or utensils."
+    },
+    {
+      "file": "pizza-burrata.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 514254,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Subject: One creamy white burrata ball slightly opened with creamy interior, surrounded closely by roasted red tomato halves, a few fresh basil leaves and two toast slices, compact individual appetizer serving, three-quarter elevated overhead view. No plate, no board, no utensils."
+    },
+    {
+      "file": "pizza-tiramisu.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 581796,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Subject: One elegant square portion of tiramisu with clearly visible layers of espresso-soaked sponge and mascarpone cream, fine dark cocoa dust on top, three-quarter view. No plate, no utensils, no garnish."
+    },
+    {
+      "file": "pizza-limonada-hierbabuena.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 310878,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Subject: One clear glass filled with pale cloudy fresh lemonade, ice cubes, a thin lime slice and fresh spearmint leaves inside the glass, realistic condensation, upright three-quarter view. No straw, no decoration outside glass. Preserve genuine transparency around the glass."
+    },
+    {
+      "file": "ingredient-parmigiano.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 430516,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Asset is an individual ingredient for a floating parallax animation and ingredient marquee. Subject: One small wedge of Parmigiano Reggiano cheese with golden natural rind and two thin curled shavings beside it, three-quarter view, no utensils."
+    },
+    {
+      "file": "ingredient-gorgonzola.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 447738,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Asset is an individual ingredient for a floating parallax animation and ingredient marquee. Subject: One irregular creamy gorgonzola dolce cheese wedge, beautiful delicate blue-green marbling, small natural crumbles beside it, three-quarter view."
+    },
+    {
+      "file": "ingredient-prosciutto.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 377828,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Asset is an individual ingredient for a floating parallax animation and ingredient marquee. Subject: Two thin delicate gently folded prosciutto di Parma slices, pink translucent meat with creamy white fat edges, elevated three-quarter view, isolated compact shape."
+    },
+    {
+      "file": "ingredient-nduja.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 447782,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Asset is an individual ingredient for a floating parallax animation and ingredient marquee. Subject: One small rustic reddish-orange nduja sausage cut open with a small mound of soft spicy spread emerging, discernible chili and fat texture, three-quarter view."
+    },
+    {
+      "file": "ingredient-aceitunas-botija.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 409648,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Asset is an individual ingredient for a floating parallax animation and ingredient marquee. Subject: Three large ripe botija olives, deep purple-black slightly wrinkled shiny skin, one olive cut in half showing pit, compact cluster, elevated view."
+    },
+    {
+      "file": "ingredient-cebolla-caramelizada.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 484814,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Asset is an individual ingredient for a floating parallax animation and ingredient marquee. Subject: Small compact nest of caramelized onion ribbons, golden amber and deep brown with realistic glossy soft translucent texture, isolated loose food without bowl."
+    },
+    {
+      "file": "ingredient-pimientos-asados.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 452150,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Asset is an individual ingredient for a floating parallax animation and ingredient marquee. Subject: Three roasted red bell pepper strips, curved soft skin with dark blister marks and subtle olive oil shine, loose compact arrangement, isolated without bowl."
+    },
+    {
+      "file": "ingredient-ajo-confitado.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 427684,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Asset is an individual ingredient for a floating parallax animation and ingredient marquee. Subject: Three peeled golden confit garlic cloves with soft olive oil sheen and lightly caramelized tips, compact loose arrangement, no bowl."
+    },
+    {
+      "file": "ingredient-rucula.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 292380,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Asset is an individual ingredient for a floating parallax animation and ingredient marquee. Subject: A small fresh sprig of arugula with three elongated lobed green leaves and slender stems, natural leaf veins, slightly curled edges, suitable as a floating scroll-parallax cutout."
+    },
+    {
+      "file": "ingredient-oregano.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 446504,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Asset is an individual ingredient for a floating parallax animation and ingredient marquee. Subject: Small fresh oregano sprig with several small oval leaves, botanical precision, visible veins, suitable as a floating scroll-parallax cutout."
+    },
+    {
+      "file": "ingredient-crema-de-rocoto.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 366356,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Asset is an individual ingredient for a floating parallax animation and ingredient marquee. Subject: A single compact thick swirl of creamy golden-orange rocoto pepper sauce seen from above, small realistic glossy ridges, isolated food itself, no dish no bowl no spoon."
+    },
+    {
+      "file": "ingredient-pesto-genoves.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 585748,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Asset is an individual ingredient for a floating parallax animation and ingredient marquee. Subject: A single compact spoonful-shaped mound of vivid natural green Genovese basil pesto, granular basil and pine nut texture and olive oil sheen, seen from above, no spoon no bowl no dish."
+    },
+    {
+      "file": "ingredient-masa-tradicional.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 489768,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Asset is an individual ingredient for a floating parallax animation and ingredient marquee. Subject: One round unbaked artisan pizza dough ball, pale ivory dough, softly folded surface, fine flour dust adhering only to dough, low three-quarter view."
+    },
+    {
+      "file": "ingredient-masa-delgada.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 469150,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Asset is an individual ingredient for a floating parallax animation and ingredient marquee. Subject: One thin round rolled raw pizza dough disc, pale ivory with gently irregular edge, overhead view, no sauce or toppings."
+    },
+    {
+      "file": "ingredient-masa-integral.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 439690,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Asset type: premium pizzeria website isolated food photograph. Hyperrealistic high-resolution commercial food photography, authentic appetizing textures, natural warm colors, soft studio light from upper left, crisp focus throughout. Square composition, single centered subject fully visible with 8% empty margin, genuine transparent alpha background. No backdrop, no floor, no text, no labels, no watermark, no border, no cast shadow outside subject. Asset is an individual ingredient for a floating parallax animation and ingredient marquee. Subject: One round unbaked whole-wheat sourdough pizza dough ball, warm tan color with tiny visible bran flecks and folded surface, low three-quarter view."
+    },
+    {
+      "file": "oven-wood-fired.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 620594,
+      "style": "photorealistic",
+      "prompt": "A premium hyperrealistic product photograph of ONE isolated small rustic terracotta brick wood-fired pizza oven with stone hearth and real burning logs inside. Entire oven seen from front, camera at hearth height. Compact object, square canvas with generous empty margins on ALL four sides. EXACTLY like a cut-out product PNG: fully TRANSPARENT EMPTY BACKGROUND outside the silhouette of the oven, alpha 0, absolutely no studio backdrop, no room, no ground plane, no colored haze, no gradient, no glow outside the oven, no cast shadow. The brick arch, slab, dark internal cavity and orange flames INSIDE the cavity are opaque. Detailed weathered bricks, warm firelight on interior, crisp detailed edges. No text or labels. This must be a transparent web asset, not a scene photograph."
+    },
+    {
+      "file": "builder-ingredient-masa-tradicional.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 11360,
+      "style": "illustration",
+      "source": "../ingredients/masa-tradicional.svg"
+    },
+    {
+      "file": "builder-ingredient-masa-delgada.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 13610,
+      "style": "illustration",
+      "source": "../ingredients/masa-delgada.svg"
+    },
+    {
+      "file": "builder-ingredient-masa-integral.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 11924,
+      "style": "illustration",
+      "source": "../ingredients/masa-integral.svg"
+    },
+    {
+      "file": "builder-ingredient-salsa-pomodoro.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 14932,
+      "style": "illustration",
+      "source": "../ingredients/salsa-pomodoro.svg"
+    },
+    {
+      "file": "builder-ingredient-crema-de-rocoto.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 14104,
+      "style": "illustration",
+      "source": "../ingredients/crema-de-rocoto.svg"
+    },
+    {
+      "file": "builder-ingredient-pesto-genoves.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 14860,
+      "style": "illustration",
+      "source": "../ingredients/pesto-genoves.svg"
+    },
+    {
+      "file": "builder-ingredient-mozzarella.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 18412,
+      "style": "illustration",
+      "source": "../ingredients/mozzarella.svg"
+    },
+    {
+      "file": "builder-ingredient-parmigiano.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 12514,
+      "style": "illustration",
+      "source": "../ingredients/parmigiano.svg"
+    },
+    {
+      "file": "builder-ingredient-gorgonzola.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 10616,
+      "style": "illustration",
+      "source": "../ingredients/gorgonzola.svg"
+    },
+    {
+      "file": "builder-ingredient-prosciutto.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 13066,
+      "style": "illustration",
+      "source": "../ingredients/prosciutto.svg"
+    },
+    {
+      "file": "builder-ingredient-pepperoni.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 36096,
+      "style": "illustration",
+      "source": "../ingredients/pepperoni.svg"
+    },
+    {
+      "file": "builder-ingredient-nduja.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 13632,
+      "style": "illustration",
+      "source": "../ingredients/nduja.svg"
+    },
+    {
+      "file": "builder-ingredient-champinones.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 15710,
+      "style": "illustration",
+      "source": "../ingredients/champinones.svg"
+    },
+    {
+      "file": "builder-ingredient-aceitunas-botija.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 9816,
+      "style": "illustration",
+      "source": "../ingredients/aceitunas-botija.svg"
+    },
+    {
+      "file": "builder-ingredient-cebolla-caramelizada.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 9534,
+      "style": "illustration",
+      "source": "../ingredients/cebolla-caramelizada.svg"
+    },
+    {
+      "file": "builder-ingredient-pimientos-asados.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 11216,
+      "style": "illustration",
+      "source": "../ingredients/pimientos-asados.svg"
+    },
+    {
+      "file": "builder-ingredient-ajo-confitado.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 11512,
+      "style": "illustration",
+      "source": "../ingredients/ajo-confitado.svg"
+    },
+    {
+      "file": "builder-ingredient-albahaca.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 18262,
+      "style": "illustration",
+      "source": "../ingredients/albahaca.svg"
+    },
+    {
+      "file": "builder-ingredient-rucula.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 11460,
+      "style": "illustration",
+      "source": "../ingredients/rucula.svg"
+    },
+    {
+      "file": "builder-ingredient-oregano.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 10878,
+      "style": "illustration",
+      "source": "../ingredients/oregano.svg"
+    },
+    {
+      "file": "builder-base.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 113582,
+      "style": "illustration",
+      "source": "../pizzas/base.svg"
+    },
+    {
+      "file": "builder-cheese.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 24152,
+      "style": "illustration",
+      "source": "../pizzas/queso.svg"
+    },
+    {
+      "file": "builder-pizza.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 255730,
+      "style": "illustration",
+      "source": "../pizzas/pizza.svg"
+    },
+    {
+      "file": "builder-sauce-pomodoro.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 27568,
+      "style": "illustration",
+      "source": "../pizzas/salsa-pomodoro.svg"
+    },
+    {
+      "file": "builder-sauce-rocoto.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 28010,
+      "style": "illustration",
+      "source": "../pizzas/salsa-crema-de-rocoto.svg"
+    },
+    {
+      "file": "builder-sauce-pesto.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 28980,
+      "style": "illustration",
+      "source": "../pizzas/salsa-pesto-genoves.svg"
+    },
+    {
+      "file": "pizza-base.webp",
+      "width": 1377,
+      "height": 1142,
+      "bytes": 738862,
+      "style": "photorealistic",
+      "prompt": "Use case: product-mockup. Create a NEW premium photorealistic pizzeria website asset: ONE entire round artisan pizza base containing ONLY crispy baked dough crust, red tomato sauce and melted mozzarella cheese. Absolutely NO basil, oregano, herbs, pepper flakes, pepperoni, meat, vegetables, tomato slices, garnishes or any other toppings. Reference image is ONLY a reference for warm premium studio lighting, authentic crust texture and appetizing commercial food photography; do NOT copy its toppings. Camera: frontal three-quarter elevated slightly downward view, approximately 30 degrees above the pizza plane, clearly showing the front crust side and the cheese surface receding into an elliptical shape. NOT a top-down circular overhead view. Golden crisp puffy crust with restrained natural wood-fired char spots, glossy gently blistered creamy melted mozzarella with red tomato sauce visible between cheese patches. Soft warm key light from upper left, subtle natural fill, crisp high-resolution detail. Full pizza centered, entirely visible with generous clear margins, clean isolated cutout on genuine alpha-transparent background. No floor, no plate, no cutting board, no utensils, no text, no watermark, no background, no drop shadow outside the pizza. High resolution."
+    }
+  ]
+}

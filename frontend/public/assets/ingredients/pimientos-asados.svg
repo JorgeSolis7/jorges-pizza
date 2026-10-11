@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pimientos asados">
+<path d="M30 76 C70 50 140 56 172 90 C176 104 164 112 150 106 C120 88 80 86 46 104 C30 110 20 92 30 76Z" fill="#C8341E"/>
+<path d="M44 132 C80 112 128 118 160 142 C166 156 150 164 138 156 C110 140 84 140 56 152 C40 158 32 142 44 132Z" fill="#E89417"/>
+<path d="M50 78 C80 64 120 64 150 80" stroke="#F2A092" stroke-width="5" fill="none" stroke-linecap="round" opacity=".8"/>
+<ellipse cx="66.8" cy="74.6" rx="3.9" ry="3.8" fill="#5F1B16" opacity="0.45"/><ellipse cx="89.1" cy="147.8" rx="5.3" ry="4.2" fill="#5F1B16" opacity="0.45"/><ellipse cx="91.3" cy="57.4" rx="5.8" ry="4.7" fill="#5F1B16" opacity="0.45"/><ellipse cx="127.9" cy="95.5" rx="5.9" ry="4.1" fill="#5F1B16" opacity="0.45"/><ellipse cx="74.2" cy="115.4" rx="4.9" ry="4.8" fill="#5F1B16" opacity="0.45"/>
+</svg>

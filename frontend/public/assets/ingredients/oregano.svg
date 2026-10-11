@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Ramita de orégano">
+<path d="M100 186 C98 140 102 90 100 20" stroke="#4D4038" stroke-width="5" fill="none" stroke-linecap="round"/>
+<ellipse cx="122" cy="40" rx="20" ry="12" transform="rotate(-25 122 40)" fill="#3B7B37"/><ellipse cx="78" cy="70" rx="20" ry="12" transform="rotate(25 78 70)" fill="#489245"/><ellipse cx="122" cy="100" rx="20" ry="12" transform="rotate(-25 122 100)" fill="#3B7B37"/><ellipse cx="78" cy="130" rx="20" ry="12" transform="rotate(25 78 130)" fill="#489245"/><ellipse cx="122" cy="158" rx="20" ry="12" transform="rotate(-25 122 158)" fill="#3B7B37"/>
+<ellipse cx="100" cy="22" rx="12" ry="16" fill="#5DAD58"/>
+</svg>
